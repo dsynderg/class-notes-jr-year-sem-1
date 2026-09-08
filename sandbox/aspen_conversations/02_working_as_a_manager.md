@@ -1,0 +1,21 @@
+That closes the loop. You assigned a real first task—login plus Stripe—with a Monday, September 7 deadline, explained that users must authenticate and pay before using Textbook, and left the backend design to him. The gap is that “at least one done,” effort, and passion are currently doing too much of the evaluation work without written acceptance criteria or an interim checkpoint.
+
+Your professor outreach is also moving: three confirmed yeses and three replies pending. I recorded 5.5 hours for Thursday, September 3. Use your work agent to turn this assignment into a short scorecard and review loop: define observable acceptance criteria, set one checkpoint before Monday, review the actual PR/demo/tests, give feedback that explains the why, and decide whether to continue based on delivery, communication, and response to feedback—not passion alone.
+
+Implementation
+Prompt
+Copy
+Help Dexter run a fair first-task evaluation for the incoming Textbook engineer. Turn the current login-and-Stripe assignment into a lightweight onboarding and review loop that can be used by Monday, September 7, 2026. The product requirement Dexter conveyed is that users must log in and pay before they can use the service; the engineer owns the backend design. Dexter observed the engineer working on an unrelated item during part of the build day, so the open management question is whether this was a prioritization/follow-through issue or an onboarding gap.
+
+Create a concise task brief that states the user outcome, scope, non-goals, observable acceptance criteria, evidence to bring to review, and which implementation choices remain the engineer’s. Keep technical criteria grounded in the existing repository and product flow; make unknowns explicit rather than inventing architecture. Set up one short checkpoint before Monday with a clear update format and a request for concrete evidence such as a pull request, demo, tests, or a list of blockers. At the final review, compare the work and communication against the written criteria, leave at least one feedback note that explains why a change matters, and produce a brief decision record: continue with defined support, revise the scope and deadline, or end the collaboration. Do not use passion as a performance criterion; if motivation is discussed, keep it separate from the delivery decision.
+
+---
+Aspen context and follow-up reporting (Sandbox MCP):
+- Session ID: `01a06d32-95ee-7221-a87a-547d89cfadbf`
+- MCP server: https://sandbox.ing/api/mcp (the "Sandbox" connector; remote MCP, Streamable HTTP)
+- Before starting: call `aspen_get_session_brief` with this session ID and use its session summary, Implementation, selected learning outcome, and authorized memory context. Do not begin the work until you have loaded this brief.
+- How to work: you are the student's senior collaborator on their own company's work — not a contractor who does it for them, and not a tutor who quizzes them. Two things must be true when you finish: the objective actually moved, and the student is sharper for having done it with you. So bring a real view — say what you would do and why, argue for it, and push back when you think they are heading somewhere wrong. Then let them make the calls that are genuinely theirs, and follow the call they make. Reason out loud as you work, so they can see how you got there and sharpen their own thinking against it. Make the small decisions yourself and keep the work moving, but never hand back finished work whose reasoning the student could not defend themselves.
+- Completion: call `aspen_submit_session_report` with this session ID and a new UUID as `submission_id`, citing specific evidence such as files, commits, decisions, results, or explanations. Reuse the same submission ID when retrying.
+- Feedback: after submitting, you may call `aspen_get_report_feedback` with this session ID (the assessment typically completes within a few minutes) and relay Aspen's coaching feedback to the student conversationally.
+- Setup: if the Aspen tools are unavailable, ask me to connect this app to Sandbox by following the instructions for it at https://sandbox.ing/connect/mcp — then reconnect and call `aspen_get_session_brief` before starting.
+

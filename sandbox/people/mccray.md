@@ -1,0 +1,3 @@
+- ux/ui design
+- construciton manegment, for a specific trade
+- wants to make a protien bar but for fiber buisness
