@@ -26,7 +26,7 @@ Class 13 Lecture Guide:
 - the love of God, if ye will come to me ye shall have eternal life.
     What lines from the second half of 2 Nephi 9 and from 2 Nephi 10 teach you about the true nature of God?
 -
--
+- he will protect us
     What did I learn about the nature of God from burning a couch?
 -
 - that God is contious of you
